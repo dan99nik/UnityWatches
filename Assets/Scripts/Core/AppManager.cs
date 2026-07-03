@@ -8,7 +8,7 @@ namespace App.Core
         private SceneLoader _sceneLoader;
 
         private const string MainScene = "MainScene";
-        private const string YandexUrl = "https://yandex.com/time/sync.json";
+        private const string YandexUrl = "https://yandex-time.dan99nik.workers.dev";
 
         public static AppManager Instance { get; private set; }
 
